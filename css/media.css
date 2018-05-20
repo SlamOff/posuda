@@ -22,6 +22,9 @@
 		background-size: 100% auto;
 		height: 260px;
 	}
+	.photo {
+		margin-top: 0;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -112,6 +115,9 @@
 @media only screen and (max-width : 767px) {
 	.made_by {
 		text-align: center;
+	}
+	.photo img {
+		width: 49%;
 	}
 	footer {
 		text-align: center;
@@ -208,6 +214,9 @@
 		width: 100%;
 		top: 25px;
 	}
+	.review {
+		display: none;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -261,6 +270,9 @@
 	h2 {
 		font-size: 2.8rem;
 		line-height: 3.8rem;
+	}
+	.photo img {
+		width: 100%;
 	}
 }
 

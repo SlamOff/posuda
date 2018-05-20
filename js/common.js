@@ -86,16 +86,13 @@ document.getElementById("seconds"));
 
 
 
-	/*
+	
 	//slick carousel
-	$('.company_slider').slick({
-		slidesToShow: 6,
+	$('.review_slider').slick({
+		slidesToShow: 1,
 		slidesToScroll: 1,
-		nextArrow: '.company_next',
-		prevArrow: '.company_prev',
-		asNavFor: '.photo_carousel_for',
-		focusOnSelect: true,
-		appendDots: '.review .nav_slider',
+		nextArrow: '.review_next',
+		prevArrow: '.review_prev',
 		customPaging: function(slider, i) {
 			return '<div class="dot"></div>';
 		},
@@ -103,11 +100,11 @@ document.getElementById("seconds"));
 			{
 			breakpoint: 992,
 			settings: {
-				slidesToShow: 3
+				slidesToShow: 1
 			}
 			}
 		]
-	});*/
+	});
 
 	/*
 	//video player + button
