@@ -672,6 +672,9 @@ h2 b {
 	margin: auto;
 	background-image: url('../img/about_dots.png');
 }
+.product {
+	z-index: 2;
+}
 .product h3 {
 	margin: 0;
 }
