@@ -76,7 +76,8 @@ document.getElementById("seconds"));
 		type: 'image',
 		gallery: {
 			enabled: true
-		}
+		},
+		closeBtnInside: true
 	});
 
 	//mask

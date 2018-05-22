@@ -11,6 +11,18 @@ body {
 main {
 	display: block;
 }
+.mfp-close-btn-in .mfp-close {
+	color: #fff!important;
+}
+.certs img {
+	width: 100%;
+	/*max-height: 500px;*/
+	display: block;
+	margin-bottom: 30px;
+}
+.certs {
+	padding: 30px 0;
+}
 p {
 	font-size: 1.8rem;
 	line-height: 2.8rem;
